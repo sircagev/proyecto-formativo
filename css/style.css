@@ -42,10 +42,10 @@ textarea{
     width: 100%;
     box-sizing: border-box;
     border: none;
-    width: 100%;
-    resize: vertical;
+    resize: none;
     text-align: center;
     padding: 5px;
+    overflow: hidden;
 }
 
 button{
