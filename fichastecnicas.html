@@ -5,22 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/fichastecnicas.css">
-    <script src="js/app.js"></script>
     <title>Fichas técnicas</title>
 </head>
 <body>
-    <p>Nombre del Producto</p>
-    <input type="text" placeholder="Nombre del Producto">
-    <p>Línea de producción</p>
-    <input type="text" placeholder="Línea de producción">
-    <p>Referencia</p>
-    <input type="number" placeholder="Referencia">
-    <P>Características</P>
-    <input type="text" placeholder="Característica">
-    <button onclick="añadirCaracteristica()">Añadir Característica </button>
-    <p>Cantidad</p>
-    <input type="number" placeholder="Cantidad">
-    <p>Valor</p>
-    <input type="number" placeholder="Valor$">
+    <section class="informacion">
+        <div class="campo">
+            <span>Nombre del Producto</span>
+            <input type="text" placeholder="Nombre del Producto">
+        </div>
+        <div class="campo">
+            <span>Línea de producción</span>
+            <input type="text" placeholder="Línea de producción">
+        </div>
+        <div class="campo">
+            <span>Referencia</span>
+            <input type="number" placeholder="Referencia">
+        </div>
+        <div class="campo" id="caracteristicas">
+            <p>caracteristicas</p>
+            <div>
+                <span>Característica 1</span>
+                <input type="text" placeholder="Característica">
+            </div>
+        </div>
+        <button id="agregar">Añadir Característica </button>
+        <div class="campo">
+            <span>Cantidad</span>
+            <input type="number" placeholder="Cantidad">
+        </div>
+        <div class="campo">
+            <span>Valor</span>
+            <input type="number" placeholder="Valor$">
+        </div> 
+    </section>
+    <script src="js/app.js"></script>
 </body>
 </html>
